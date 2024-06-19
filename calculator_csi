@@ -1,12 +1,12 @@
-# pip to install tkinter
+
 import tkinter as tk
 import tkinter.messagebox
 
-# Improved button styling
+
 button_padx = 10
 button_pady = 5
 
-# To create the main window
+# create the main window
 root = tk.Tk()
 root.title('Calculator')
 
@@ -14,7 +14,7 @@ root.title('Calculator')
 frame = tk.Frame(root, bg="white", padx=10)
 frame.pack()
 
-# For displaying the input and output
+# For input and output
 entry = tk.Entry(frame, relief=tk.SUNKEN, borderwidth=3, width=30)
 entry.grid(row=0, column=0, columnspan=4, ipady=2, pady=2)
 
